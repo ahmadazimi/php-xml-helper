@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<hamy xmlns:fieldset="hamy.fieldset">
+	
+	<fieldset:tags label="GLOBAL_FIELDS_TAGS" description="GLOBAL_FIELDS_TAGS_DESC">
+		
+		<field name="textbox" label="TEST" description="GLOBAL_FIELDS_TEXTBOX">
+			<html maxlength="20" value="Hello world!" class="blue" />
+		</field>
+		
+		<field name="textarea" label="TEXTAREA" description="GLOBAL_FIELDS_TEXTAREA">
+			<html cols="50" rows="10" class="red" style="background-color: red;">
+				DEFAULT VALUE OF TEXT AREA
+			</html>
+		</field>
+		
+		<field name="combobox" label="COMBOBOX" description="GLOBAL_FIELDS_COMBOBOX">
+			<html class="red" style="color: blue;">
+				<option value="1">
+					test 1
+				</option>
+				<option value="2" selected="selected">
+					test 2
+				</option>
+				<option value="3">
+					test 3
+				</option>
+			</html>
+		</field>
+	</fieldset:tags>
+	
+	<fieldset:x label="GLOBAL_FIELDS_TAGS" descriptio="GLOBAL_FIELDS_TAGS_DESC"></fieldset:x>
+	
+</hamy>
